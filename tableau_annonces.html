@@ -1,0 +1,502 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Annonces ALTERNEA et NEABIO</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <style>
+                body { padding: 20px; font-family: Arial, sans-serif; }
+                table {
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 80%;
+                    margin: 0 auto;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                table th, table td {
+                    border: 1px solid #ddd;
+                    padding: 12px;
+                }
+                table thead th {
+                    background-color: #f8f9fa;
+                    font-weight: bold;
+                }
+                table tbody tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+                table tbody tr:hover {
+                    background-color: #e9ecef;
+                }
+                table td.centered {
+                    text-align: center;
+                }
+                table td.col-1, table td.col-2 {
+                    width: 150px;
+                    text-align: center;
+                }
+                table td.hidden-col-1, table td.hidden {
+                    display: none;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Annonces ALTERNEA et NEABIO</h1>
+            <table border="1" class="dataframe table table-striped">
+<tbody>
+<tr>
+<td class="centered hidden-col-1">CLIENTS</td>
+<td class="centered col-1">NOMBRE DE PALETTE*</td>
+<td class="centered col-2">NOMBRE DE COLIS*</td>
+<td class="centered hidden">NBR PAL</td>
+<td class="centered hidden">NOMBRE DE PALETTE</td>
+<td class="centered">CLIENTS*</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI BEAUNE SARL BEAUNE</td>
+<td class="col-1">3</td>
+<td class="col-2">31</td>
+<td class="hidden">3.2</td>
+<td class="hidden">3</td>
+<td>ALDI BEAUNE SARL BEAUNE</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI BOIS GRENIER MARCHE BOIS GRENIER</td>
+<td class="col-1">4</td>
+<td class="col-2">311</td>
+<td class="hidden">4.04</td>
+<td class="hidden">4</td>
+<td>ALDI BOIS GRENIER MARCHE BOIS GRENIER</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI CAVAILLON SARL MARCHE CAVAILLON</td>
+<td class="col-1">5</td>
+<td class="col-2">279</td>
+<td class="hidden">4.98</td>
+<td class="hidden">5</td>
+<td>ALDI CAVAILLON SARL MARCHE CAVAILLON</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI CUINCY SARL MARCHE CUINCY</td>
+<td class="col-1">1</td>
+<td class="col-2">106</td>
+<td class="hidden">0.78</td>
+<td class="hidden">1</td>
+<td>ALDI CUINCY SARL MARCHE CUINCY</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI ENNERY SARL ENNERY</td>
+<td class="col-1">3.5</td>
+<td class="col-2">178</td>
+<td class="hidden">3.49</td>
+<td class="hidden">3.5</td>
+<td>ALDI ENNERY SARL ENNERY</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total ALDI MARCHE SAUVIAN SAUVIAN</td>
+<td class="col-1">1</td>
+<td class="col-2">125</td>
+<td class="hidden">0.77</td>
+<td class="hidden">1</td>
+<td>ALDI MARCHE SAUVIAN SAUVIAN</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total BARIOUX SA CHASSE SUR RHONE</td>
+<td class="col-1">1</td>
+<td class="col-2">56</td>
+<td class="hidden">1</td>
+<td class="hidden">1</td>
+<td>BARIOUX SA CHASSE SUR RHONE</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total FRANPRIX GONESSE GONESSE</td>
+<td class="col-1">11.5</td>
+<td class="col-2">1048</td>
+<td class="hidden">11.51</td>
+<td class="hidden">11.5</td>
+<td>FRANPRIX GONESSE GONESSE</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total MAGPRIM SAS VERTSTDENIS</td>
+<td class="col-1">0.5</td>
+<td class="col-2">40</td>
+<td class="hidden">0.45</td>
+<td class="hidden">0.5</td>
+<td>MAGPRIM SAS VERTSTDENIS</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total PRIM FRUITS SARL RUNGIS</td>
+<td class="col-1">0.5</td>
+<td class="col-2">64</td>
+<td class="hidden">0.47</td>
+<td class="hidden">0.5</td>
+<td>PRIM FRUITS SARL RUNGIS</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total SCADIF MDD SCAFEL REAU REAU</td>
+<td class="col-1">7.5</td>
+<td class="col-2">543</td>
+<td class="hidden">7.49</td>
+<td class="hidden">7.5</td>
+<td>SCADIF MDD SCAFEL REAU REAU</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total SCADIF REAU SCAFEL REAU</td>
+<td class="col-1">1.5</td>
+<td class="col-2">148</td>
+<td class="hidden">1.7</td>
+<td class="hidden">1.5</td>
+<td>SCADIF REAU SCAFEL REAU</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total SCAPNOR SCAFEL BRUYERES SUR OISE</td>
+<td class="col-1">6</td>
+<td class="col-2">320</td>
+<td class="hidden">6.0</td>
+<td class="hidden">6</td>
+<td>SCAPNOR SCAFEL BRUYERES SUR OISE</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total SCAPNOR SCAFEL MDD BRUYERES SUR OISE</td>
+<td class="col-1">7</td>
+<td class="col-2">402</td>
+<td class="hidden">7.17</td>
+<td class="hidden">7</td>
+<td>SCAPNOR SCAFEL MDD BRUYERES SUR OISE</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total SODILIB  SAS LISSES</td>
+<td class="col-1">6</td>
+<td class="col-2">487</td>
+<td class="hidden">5.84</td>
+<td class="hidden">6</td>
+<td>SODILIB  SAS LISSES</td>
+</tr>
+<tr>
+<td class="hidden-col-1">Total général</td>
+<td class="col-1">56</td>
+<td class="col-2">4138</td>
+<td class="hidden">56.08</td>
+<td class="hidden">56</td>
+<td>Total</td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+<tr>
+<td class="hidden-col-1"></td>
+<td class="col-1"></td>
+<td class="col-2"></td>
+<td class="hidden"></td>
+<td class="hidden"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+        </body>
+        </html>
+        
